@@ -188,7 +188,7 @@ h2 {
 .icon:before {
   content: "";
   padding-right: 10px;
-  border-left: 7px solid #9cd4a4;
+  border-left: 7px solid #9cb4a4;
 }
 
 #about .profile-txt {
@@ -201,7 +201,7 @@ h2 {
 }
 
 #about .profile-image {
-  float: right
+  float: right;
 }
 
 .clearfix:after {
@@ -223,7 +223,7 @@ section {
 
 #about .career td {
   width: 660px;
-  padding: 12px 0;
+  padding: 12px 0 12px 40px;
   border: 1px solid #cccccc;
 }
 
@@ -236,4 +236,44 @@ table {
   background-color: transparent;
   margin-top: 0;
   padding: 0;
+}
+
+/* portfolio.html */
+
+#portfolio {
+  background-image: url(../images/bg-portfolio.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter', serif;
+}
+
+a img:hover {
+  opacity: 0.8;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
 }
