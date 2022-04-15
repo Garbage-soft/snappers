@@ -469,7 +469,19 @@ a img:hover {
     max-width: 100%;
   }
 
+  /* portfolio.html  */
+
   #portfolio {
     background-image: url(../images/bg-portfolio-sp.jpg);
+  }
+
+  /* サイドバー */
+
+  .sidebar {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 30px 10% 10px;
+    background-color: #f7f6f4;
   }
 }
